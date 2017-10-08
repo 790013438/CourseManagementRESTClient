@@ -14,7 +14,7 @@ import javax.ws.rs.core.Response;
 public class CourseManagementClient {
 
     public static void main (String[] args) {
-        testGetCourseJSON();
+        testAddCourseJSON();
     }
 
     //Test getCourse method (XML or JSON) of CourseService
