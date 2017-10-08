@@ -47,7 +47,7 @@ public class CourseManagementClient {
         Client client = ClientBuilder.newClient();
 
         //Get WebTarget for a URL
-        WebTarget webTarget = client.target("http://localhost:8600/CourseManagementREST/services/course/add");
+        WebTarget webTarget = client.target("http://localhost:8080/CourseManagementREST/services/course/add");
 
         //Create JSON representation of Course,
         //with course_name and credits fields. Instead of creating 
