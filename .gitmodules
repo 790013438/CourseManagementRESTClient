@@ -1,3 +1,3 @@
-[submodule "module"]
-	path = module
-	url = file:///D:\\File\\Java_workspace\\CourseManagementREST
+[submodule "CourseManagementREST"]
+	path = CourseManagementREST
+	url = https://github.com/790013438/CourseManagementREST.git
