@@ -10,3 +10,5 @@
         //Execute HTTP post method
         Response response = webTarget.request().post(Entity.entity(courseJSON, MediaType.APPLICATION_JSON_TYPE));
 ```
+
+## Creating a Java client for the form-encoded REST web service
